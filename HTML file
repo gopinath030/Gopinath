@@ -7,55 +7,9 @@ Marketplace
 Explore
  
 @gopinath030 
-farzadravari
-/
+
 Practical-Machine-Learning--Project.Rmd
-0
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Create Practical Machine Learning Project.HTML
 
- master
-@farzadravari
-farzadravari committed on Jun 14, 2017 
-1 parent 87345db commit e316e0cb4e9754317bf4351e76815c8d520e205e
-Showing  with 211 additions and 181 deletions.
-  392  Practical Machine Learning Project.HTML 
-@@ -1,37 +1,39 @@
-Practical Machine Learning -Project
-Farzad Ravari
-Output : HTML
-June 12, 2017
-http://rpubs.com/farzadravari/284077
-Executive Summary
-This project attempts to evelauate effect of using the devices such as Jawbone Up, Nike FuelBand, and Fitbit for collecting data information during activities for measurment of vital signe and health factors for modification of health behavior and enhance activities . Data collected from accelerometers on the belt, forearm, arm, and dumbell of 6 participants. Exploratory analysis of data includes implementation of random forests for cross predication befor and after cross validation and test set with removal of columns less tha 60% of data and thereforedata validation and building a model with cross validation and predication .
-<p>"Practical Machine Learning -Project"</p>
-
-Data source:https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv
-<p>Author: "Farzad Ravari"
-Executive Summary</p>
-
-Set Directory
-<p>This project attempts to evelauate effect of using the devices such as Jawbone Up, Nike FuelBand, and Fitbit for collecting data information during activities for measurment of vital signe and health factors for modification of health behavior and enhance activities . Data collected from accelerometers on the belt, forearm, arm, and dumbell of 6 participants. Exploratory analysis of data includes implementation of random forests for cross predication befor and after cross validation and test set with removal of columns less tha 60% of data and thereforedata validation and building a model with cross validation and predication . Data source:https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv
-Set Directory</p>
-
-setwd("C:/Users/farza/Desktop/Data Science/Course 8/Project")
-<pre><code>setwd("C:/Users/FARZAD/Desktop/Data Science/Course 8/Project")
-getwd()
-[1] "C:/Users/farza/Desktop/Data Science/Course 8/Project"
-Install necessary packages
-[1] "C:/Users/FARZAD/Desktop/Data Science/Course 8/Project"
-</code></pre>
-
-install.packages("ElemStatLearn")
-<p>Install necessary packages</p>
 
 <pre><code>install.packages("ElemStatLearn")
 install.packages("caret") 
@@ -509,25 +463,8 @@ varImpPlot(RanForFit$finalModel, sort = TRUE, type = 1, pch = 20, col = 3, cex =
 <p>Conclusion</p>
 
 Conclusion
-Acccording to exploratory data analysis, fitting of appropriate model with high accuracy for prediction of sampla outcomes requires to remove missing value and near zero data therefore creating validation will be accurate with random forest model with cross validation .
-<p>Acccording to exploratory data analysis, fitting of appropriate model with high accuracy for prediction of sampla outcomes requires to remove missing value and near zero data therefore creating validation will be accurate with random forest model with cross validation .</p>
-0 comments on commit e316e0c
+This is a great hand-on assignment. Although the final model is not complicated at all, the data exploration phase is quite a job. In the real world, we are encountering the shift from information scarcity to surfeit. To identify ‘information’ from ‘noise’ is one of the most important work for a data scientist.
+Another trick I learned from the project is the right package will definitely speed up my work. Caret is a versatile tool box, but it seems not as efficient as other specialty package. For example, randomForest package is extremely faster than ‘rf’ in caret.
+
 @gopinath030
  
- 
-Leave a comment
-No file chosen
-Attach files by dragging & dropping, selecting or pasting them.
- You’re not receiving notifications from this thread.
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
